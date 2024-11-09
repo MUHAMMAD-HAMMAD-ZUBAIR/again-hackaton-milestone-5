@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SHAREABLE RESUME BUILDER</title>
+
+    <!-- Main heading for the resume builder -->
+    <h1><i><u><b>SHAREABLE RESUME BUILDER</b></u></i></h1>
+    
+    <!-- Form for entering resume details -->
+    <form id="Resumeform">
+        
+        <!-- Section for Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <!-- Input for Resume URL -->
+            <label for="username">Resume URL</label>
+            <input type="text" id="username" name="username" required> <br>
+            
+            <!-- Input for Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            
+            <!-- Input for Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <!-- Input for Phone -->
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+      
+        
+        <!-- upload profile picture here -->
+
+        <label for="profilepicture">Upload Profile Picture:</label>
+        <input type="file" id="profilepicture" id="profilepicture" accept="image/*" required>
+    </fieldset>
+   
+    <!-- Section for Education-->
+    <fieldset>
+        <legend>Education</legend>
+        
+        <!-- Textarea for Education details -->
+        <label for="education">Education</label>
+        <textarea name="education" id="education" rows="4" required></textarea>
+    </fieldset>
+
+        
+    <!-- Section for Experience -->
+        <fieldset>
+            <legend>Experience</legend>
+            
+            <!-- Textarea for Experience details -->
+            <label for="experience">Experience</label>
+            <textarea name="experience" id="experience" rows="4" required></textarea>
+        </fieldset>
+    
+        <!-- Section for Skills -->
+        <fieldset>
+            <legend>Skills</legend>
+            
+            <!-- Textarea for Skills details -->
+            <label for="skills">Skills</label>
+            <textarea name="skills" id="skills" rows="4" required></textarea>
+            
+            <!-- Button to submit form and generate the resume -->
+            <button type="submit">Generate Resume</button>
+        </fieldset>
+    
+    </form>
+    
+    <!-- Div to display the generated resume -->
+    <div id="resumeOutput">
+        <!-- Resume output will be generated here -->
+    </div>
+</head>
+<body>
+    
+    <!-- JavaScript file to handle form submission and resume generation -->
+    <script src="index.js"></script>
+
+</body>
+</html>

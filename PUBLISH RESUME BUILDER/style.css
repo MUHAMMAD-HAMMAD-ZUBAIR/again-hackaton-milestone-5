@@ -1,0 +1,113 @@
+body {
+    background-image: url(https://images.pexels.com/photos/314726/pexels-photo-314726.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(203, 185, 185, 0.5);
+    border-radius: 8px;
+    border-width: 5px;
+    border-color: navy;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(203, 185, 185, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input, textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 90px;
+    height: 70px;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(203, 185, 185, 0.5);
+    border-radius: 8px;
+    border-width: 5px;
+    border-color: navy;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(203, 185, 185, 0.5);
+    padding: 20px;
+}
+
+#resumeOutput h2 {
+    text-align: center;
+    color: navy;
+    margin-bottom: 15px;
+}
+
+#resumeOutput p, #resumeOutput h3 {
+    margin: 10px 0;
+    color: #444;
+}
+
+#resumeOutput p strong {
+    color: black;
+}
+
+#resumeOutput h3 {
+    color: red;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.profilepicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid red;
+    box-shadow: 0 4px 8px rgba(203, 185, 185, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
